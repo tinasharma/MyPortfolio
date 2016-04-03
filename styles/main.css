@@ -1,0 +1,191 @@
+body{
+  font-size: 16px;
+  margin-top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Varela Round';
+}
+
+#top {
+  background: url(../imgs/possibilities.jpg) 20% 0 fixed;
+  background-position: 50%;
+  background-position-y: initial;
+  content: "";
+  display: block;
+  left:0;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  height: 30em;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+/*Font awesome cancel button*/
+.fa {
+  text-align: center;
+  font-size: -webkit-xxx-large;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.fa:hover {
+    transform:rotate(90deg);
+}
+/*Animate Modal - About page*/
+.modal-btn {
+  margin-top: 0px;
+  vertical-align: right;
+  text-align: right;
+  margin-right: 1em;
+  text-align: -webkit-match-parent;
+}
+
+#btn-close-modal {
+  width:100%;
+  text-align: center;
+  cursor:pointer;
+  color:#fff;
+}
+.modal-content .about h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.about {
+  color: black;
+  margin-bottom: 2em;
+}
+
+/***--**--**--***/
+h1, h3, h5 {
+  color: #696969;
+}
+
+.header h1 {
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  color: black;
+  /*color: #1874CD;*/
+  font-size: 3em;
+  text-align: left;
+}
+.sub-header h3 {
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 100px;
+  color: black;
+  /*color: #1874CD;*/
+  font-size: 1.6em;
+}
+.sub-header a h5 {
+  text-align: right;
+  font-size: 1.25em;
+  color: blue;
+  text-decoration: underline;
+  margin-right: 1em;
+}
+.sub-header h5 {
+  text-align: left;
+  margin-top: 0.5em;
+  margin-left: 100px;
+  color:white;
+  font-size: 1.5em;
+}
+
+article {
+  /*margin: auto 1em;*/
+  padding: 1em;
+  background-color: #EBC79E;
+}
+article h1, h3, h5 {
+  text-align: center;
+  color: #696969;
+}
+article h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2em;
+  color: black;
+}
+article h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article h5 {
+  font-size: 0.8em;
+}
+
+/*Projects*/
+#projects figure {
+  padding: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  display: block;
+}
+#projects figcaption {
+  margin-top: 1em;
+}
+#projects img {
+  max-width: 400px;
+  max-height: 232px;
+  display: block;
+  margin: 0 auto;
+}
+.wobble {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+a:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+
+/*Icons*/
+.icon-github, .icon-linkedin, .icon-mail {
+  padding: 0.3em;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+nav, section {
+  display: block;
+}
+
+article {
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+footer {
+  background-color: #EBC79E;
+  font-size: 110%;
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #53868B;
+}
